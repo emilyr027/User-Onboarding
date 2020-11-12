@@ -87,7 +87,7 @@ function Form(props) {
                         onChange={onInputChange}
                         value={values.role}>
                             <option value=''> -- Select an option -- </option>
-                            <option value='Web Developer'>Web Developer</option>
+                            <option value='webDeveloper'>Web Developer</option>
                             <option value='dataScientist'>Data Scientist</option>
                             <option value='uiUxDesigner'>UI/UX Designer</option>
                             <option value='marketingPro'>Marketing Professional</option>
