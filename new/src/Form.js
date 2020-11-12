@@ -36,9 +36,9 @@ function Form(props) {
                 <div>
                     <label>Name:&nbsp;
                         <input
-                        value={values.name}
+                        value={values.first_name}
                         onChange={onInputChange}
-                        name='name'
+                        name='first_name'
                         type='text'
                         />
                 

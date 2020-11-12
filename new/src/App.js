@@ -15,7 +15,7 @@ const StyledDiv = styled.div`
 
 
 const initialFormValues = {
-  name: '',
+  first_name: '',
   email: '',
   password: '',
   termsOfService: '',
@@ -28,7 +28,7 @@ const initialFormValues = {
 };
 
 const initialFormErrors = {
-  name: '',
+  first_name: '',
   email: '',
   password: '',
   termsOfService: '',
@@ -102,7 +102,7 @@ function App() {
   
     const formSubmit = evt => {
       const newUser = {
-        name: formValues.name.trim(),
+        first_name: formValues.first_name.trim(),
         email: formValues.email.trim(),
         password: formValues.password.trim(),
         termsOfService: formValues.termsOfService,
